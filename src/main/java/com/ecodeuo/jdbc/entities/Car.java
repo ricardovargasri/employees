@@ -18,7 +18,7 @@ public class Car implements Serializable {
     @Column(name = "model")
     private String model;
 
-    @Column(unique = true)
+    @Column(unique = true, name = "license_plate")
     private String licensePlate;
 
     @Column(name = "year")

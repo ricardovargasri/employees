@@ -24,7 +24,7 @@
 
         <!-- Registrar clases de entidades -->
         <mapping class="com.ecodeuo.jdbc.entities.Employee"/>
-        <!--<mapping class="com.ecodeuo.jdbc.entities.Car"/>-->
+        <mapping class="com.ecodeuo.jdbc.entities.Car"/>
 
     </session-factory>
 </hibernate-configuration>
