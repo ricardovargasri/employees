@@ -39,7 +39,7 @@ public class Employee implements Serializable {
 
     //constructor
 
-    private Employee(){};
+    public Employee(){};
 
     public Employee(Long id, String firstName, String lastName, String email, Integer age, Double salary, Boolean married, LocalDate dateOfBirth, LocalDateTime registerDate) {
         this.id = id;
